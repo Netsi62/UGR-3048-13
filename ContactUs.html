@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="MY SERVISE TO WORK PAGE SHOWS ALL THE WORK RATE PER YEAR.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    
+    
+    
+    
+</head>
+<body>
+    <div class="head">
+        <div class="head__content">
+            <h1 class="head__heading" >MIMI EVENTS</h1>
+            <img class="head__logo" src="eventimg/logohead.png" alt="The Web Site Logo With Black Background And Have A Text And Some Flower On It ">
+            <img class="head__headerimg" src="eventimg/head2.jpg" alt="View Table Setup For Event">
+        </div>
+            
+        <nav class="nav">
+            <ul class="nav__order">
+                <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="AboutUs.html">About us</a></li>
+                <li class="nav__item"><a  class="nav__link"href="Menu.html">Menu</a></li>
+                <li class="nav__item"><a class="nav__link" href="Service.html">Service</a></li>
+                <li class="nav__item"><a class="nav__link" href="Testimony.html">Testimony</a></li>
+                <li class="nav__item"><a  class="nav__link" href="ContactUs.html">Contact us</a></li>
+            </ul>
+            
+            
+        </nav>
+        <div id="hamburger" onclick="toggleMobileMenu(this)">
+            <div class="hamburger__bar hamburger__bar--bar1 "></div>
+            <div class="hamburger__bar hamburger__bar--bar2 "></div>
+            <div class="hamburger__ bar hamburger__bar--bar3 "></div>
+            <ul class="responsive">
+                <li class="responsive__item"><a class="responsive__link" href="index.html">Home</a></li>
+                <li class="responsive__item"><a class="responsive__link" href="AboutUs.html">About us</a></li>
+                <li class="responsive__item"><a  class="responsive__link"href="Menu.html">Menu</a></li>
+                <li class="responsive__item"><a class="responsive__link" href="Service.html">Service</a></li>
+                <li class="responsive__item"><a class="responsive__link" href="Testimony.html">Testimony</a></li>
+                <li class="responsive__item"><a  class="responsive__link" href="ContactUs.html">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="main">
+        <div class="maincontact">
+            <h1 class="maincontact__title">CONTACT US</h1>
+            <iframe class="maincontact__map" title="map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17154.60559980844!2d38.75500689286385!3d8.980044750612276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8584b0f1294d%3A0x78c5c25e5067a736!2sBole%20Medhanialem%20Church!5e0!3m2!1sen!2set!4v1672191839845!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="maintext">
+            <h2 class="maintext__head">FEEL FREE TO COMMUNICATE WITH US......</h2>
+        </div>  
+            <div class="main__container">       
+                <div class="message">
+                     
+                    <form class="message__form" id="form"> 
+                        
+                        <div class="input-box">
+                            <label class="contact-label" for="name">NAME:</label>
+                            <input class="form-input"  type="text" id="name" name="name" placeholder="eg:Name" >
+                            <small class="error-message">Error message</small>
+                            
+                        </div>
+                        
+                        <div class="input-box">
+                            <label class="contact-label" for="email">EMAIL:</label>
+                            <input class="form-input" type="email" id="email" name="email" placeholder="eg:name@gmail.com">
+                            <small class="error-message">Error message</small>
+                        </div>
+                        
+                        <div class="input-box message-box">
+                            <label class="contact-input" for="message">MESSAGE</label>
+                            <textarea class="text-area" name="message" id="message" placeholder="your message or comment to us" cols="20" rows="10"></textarea>
+                            <small class="error-message">Error message</small>
+                        </div>
+                        
+                    
+                        <button class="submit-btn" type="submit" onclick="alertFunction()">Submit</button>
+                    </form>
+                    
+                </div>
+              
+                <div class="location">
+                    <h2 class="location__address">ADRESSES</h2>
+                    <h3 class="location__location">LOCATION</h3>
+                    <img class="location__img" src="eventimg/location.jpg" alt="Logo For Location">
+                    <h4 class="location__text">Bole, Infront of Medhaniyalem church, Awlo business center 2nd floor</h4>
+                    <img class="location__img"  src="eventimg/location.jpg" alt="Logo For Location">
+                    <h4 class="location__text">Tekur Weha, Farid Buliding 4th floor </h4>
+                    <h4 class="location__text">Hawassa, Ethiopia</h4>
+                    <img class="location__img"  src="eventimg/location.jpg" alt="Logo For Location">
+                    <h4 class="location__text" >Kezira, In Fornt of Awraris Hotel ,  Kebede business Center  8th floor</h4>
+                    <h4 class="location__text">Diredewa, Ethiopia</h4>
+                    <img  class="location__img location__img--diffrent" src="eventimg/call1.png" alt="Logo For Call">
+                    <p class="location__text" >+2519637289</p> 
+                    <br>
+                    <img class="location__img location__img--diffrent"  src="eventimg/email.jpg" alt="Logo For Email">
+                    <p class="location__text" >Mimievents1985@gmail.com</p>
+                </div>  
+            </div> 
+    </section>
+
+    <div class="foot">
+        <img class="foot__img" src="eventimg/footer1.jpeg"  alt="small view of table for event">
+        <P class="foot__paragraph">READY TO MAKE THE NEXT STEP?
+            LET’S TALK ABOUT YOUR EVENT!</P>
+            <button onclick="window.location.href = 'ContactUs.html';" class="foot__btn" type="button">CONTACT US</button>
+    </div>
+    <div class="footer">
+
+        
+        <div class="row">
+            <div class="row__form">
+                <h2 class="row__head3">JOIN OUR MALING BOX</h2>
+                <h3 class="row__head3">Receive invitations, updates and bonuses for purchasing</h3>
+                <h4 class="row__head4">ENTER YOUR EMAIL...</h4>
+                <form>
+                    <label for="email1">EMAIL:</label>
+                    <input type="email" id="email1" name="email" placeholder="youremail"
+                    pattern="name@gamil.com" size="30" required>
+                    <br><br>
+                    <button type="button">SUBSCRIBE</button>
+
+                </form>
+                
+            </div>
+            <div class="socialmedia">
+                <h2 class="socialmedia__header">FOLLOW ON SOCIAL MEDIA</h2>
+                <div class="icon">
+                <a  class="socialmesia__link" href="https://www.facebook.com/"><img class="socialmedia__face" src="eventimg/faceicon.jpg" alt="Icon For Facebook"></a>
+                <a class="socialmedia__link" href="https://www.instagram.com/"><img class="socialmedia__inst" src="eventimg/instaicon.jpg" alt="Icon For Instagram"></a>
+                <a class="socialmedia__link"  href="https://twitter.com/"><img  class="socialmedia__twi"  src="eventimg/twittericon.jpg" alt="Icon For Twitter"></a>
+                <a class="socialmedia__link"  href="https://www.messenger.com/?_rdr"><img class="socialmedia__mess" src="eventimg/messicon.jpg" alt="Icon For Messanger"></a></div>
+            </div>
+            <div class="contact">
+                <img class="contact__img" src="eventimg/abc.png" alt="Logo That Says Mimi Event Since 1985 ">
+                <h3 class="contact_h3">CONTACT US</h3>
+                <div class="text">
+                <img class="contact__call" src="eventimg/call1.png" alt="Logo For Call">
+                +2519637289
+                <br>
+                <img class="contact__email" src="eventimg/email.jpg" alt="Logo For Email">Mimievents1985@gmail.com</div>
+                
+            </div>
+        </div>
+    </div>
+     <div class="last">
+        <h4 class="last__h4">copyright© 2023</h4>
+        <h4 class="last__h4">ADDIS ABABA   ETHIOPIA</h4>
+        <h4 class="last__h4">ALL RIGHT RESERVED</h4>
+     </div>
+    
+
+<script src="bar.js"></script>
+<script defer src="form.js"></script>
+</body>
+</html>

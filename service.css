@@ -1,0 +1,390 @@
+.title__head{
+    text-align:center;
+    font-size:40px;
+    margin-top: 40px;
+    font-family:  'Pacifico', cursive;
+  }
+  .wedding__head, .planning__head, .birthday__head, .graduation__head, .package__head,.text__head {
+    font-size:28px;
+    text-align:center;
+    justify-content: end;
+    text-transform: uppercase;
+    font-family:  'Pacifico', cursive;
+  
+  }
+  .service{
+    display:grid;
+    grid-template-columns:repeat(autofit, minmax(100px,auto));
+    grid-auto-rows:minmax(100px, auto);
+    align-items: center;
+    
+     
+    
+   
+  }
+  .service__right{
+    grid-column:3;
+    margin-right:140px;
+    width:300px;
+    font-size: 22px;
+    line-height: 30px;
+    
+  
+  }
+  .service__h4{
+    font-size:22px;
+    font-family:  'Pacifico', cursive;
+
+  }
+  .service__left{
+    grid-column: 1/2;
+    margin-top:10px;
+    margin-left: 140px;
+  
+  }
+  img{
+    width:400px;
+    height: 350px;
+   
+  }
+  video{
+    width:400px;
+   
+  }
+  .package{
+    display:grid;
+    grid-template-columns: repeat(autofit, (12,1fr));
+    line-height: 30px;
+  }
+  .package__silver{
+  grid-column: 2/4;
+   
+  }
+  .package__gold{
+    grid-column: 5/9;
+     
+  }
+  .package__dimond{
+    grid-column: 10/11;
+     
+  }
+  .package__img{
+      width:100px;
+      height:100px;
+      border-radius:50%;
+  }
+  .package__list{
+    font-size: 22px;
+    align-items: center;
+  }
+  .package__head{
+    font-size:24px;
+  }
+  .package__link1, .package__link2{
+    grid-column:2/12;
+    font-size:20px;
+    display:inline;
+    margin-top:20px;
+  }
+  @media only screen and (max-width:1100px){
+    .service__right{
+      margin-right:90px;
+      
+      
+    
+    }
+    .service__left{
+      
+      margin-left: 90px;
+    
+    }
+  }
+  @media only screen and (max-width:980px){
+    .service__right{
+      margin-right:60px;
+      
+      
+    
+    }
+    .service__left{
+      
+      margin-left: 60px;
+    
+    }
+  }
+  @media only screen and (max-width:920px){
+    .service__right{
+      margin-right:55px;
+      
+      
+    
+    }
+    .service__left{
+      
+      margin-left: 55px;
+    
+    }
+  }
+  @media only screen and (max-width:900px){
+    .service__right{
+      margin-right:35px;
+    }
+    .service__left{
+      
+      margin-left: 35px;
+    
+    }
+  }
+  @media only screen and (max-width:850px){
+    .service__right{
+      grid-column:1/2;
+      margin-top:10px;
+      margin-left: 32%;
+      font-size: 22px;
+      
+    
+    }
+    .service__left{
+      
+      margin-left: 28%;
+    
+    }
+    .package{
+      display:grid;
+      grid-template-columns: repeat(autofit, (12,1fr));
+      margin-top:3%;
+      line-height: 30px;
+     
+    }
+    .package__silver{
+      grid-column: 5/9;
+      margin-top:3%;
+    
+     
+       
+      }
+      .package__gold{
+        grid-column: 5/9;
+        margin-top:3%;
+         
+      }
+      .package__dimond{
+        grid-column: 5/9;
+        margin-top:3%;
+         
+      }
+      .package__dimond__img, .package__gold__img, .package__silver__img{
+        width:150px;
+        height:150px;
+        border-radius:50%;
+      }
+      .package__silver__list, .package__gold__list, .package__dimond__list{
+        font-size: 21px;
+        align-items: center;
+      }
+      .package__dimond__head, .package__gold__head, .package__silver__head{
+        font-size:25px;
+      }
+      
+  } 
+  
+
+
+  @media only screen and (max-width:800px){
+       .service__left{
+        margin-left:20%;
+       }
+  }
+  @media only screen and (max-width:700px){
+    .service__right{
+      grid-column:1/2;
+      margin-top:10px;
+      margin-left: 22%;
+      font-size: 22px;
+      
+    
+    }
+    .service__left{
+      
+      margin-left: 18%;
+    
+    }
+  } 
+  @media only screen and (max-width:550px){
+    .service__right{
+      grid-column:1/2;
+      margin-top:10px;
+      margin-left: 18%;
+      font-size: 22px;
+      
+    
+    }
+    .service__left{
+      
+      margin-left: 14%;
+    
+    }
+  } 
+  @media only screen and (max-width:500px){
+    img{
+      width:350px;
+      height: 350px;
+     
+    }
+    video{
+      width:350px;
+     
+    }
+  }
+  @media only screen and (max-width:480px){
+    .main{
+     margin-left:10%;
+    }
+    .wedding__head, .planning__head, .birthday__head, .graduation__head, .package__head,.text__head {
+      font-size:24px;
+      text-align:center;
+      justify-content: end;
+      text-transform: uppercase;
+      font-family:  'Pacifico', cursive;
+    
+    }
+    .package{
+      margin-left:6%;
+    }
+    .text__head{
+      margin-left:20%
+   }
+   .service__right{
+    grid-column:1/2;
+    margin-top:10px;
+    margin-left: 14%;
+    font-size: 22px;
+    
+  
+  }
+  .service__left{
+    
+    margin-left: 10%;
+  
+  }
+  img{
+    width:300px;
+    height: 300px;
+   
+  }
+  video{
+    width:300px;
+   
+  }
+ }
+    
+
+@media only screen and (max-width:375px){
+  .main{
+   margin-left:10%;
+  }
+  .wedding__head, .planning__head, .birthday__head, .graduation__head, .package__head,.text__head {
+    font-size:20px;
+    text-align:center;
+    justify-content: end;
+    text-transform: uppercase;
+    font-family:  'Pacifico', cursive;
+  
+  }
+  .package {
+    margin-left:75%;
+  }
+  .text__head{
+     margin-left:20%
+  }
+}
+@media only screen and (max-width:399px){
+  .main{
+   margin-left:5%;
+  }
+  .wedding__head, .planning__head, .birthday__head, .graduation__head, .package__head,.text__head {
+    font-size:20px;
+    text-align:center;
+    justify-content: end;
+    text-transform: uppercase;
+    font-family:  'Pacifico', cursive;
+  
+  }
+  .package {
+    margin-left:5%;
+  }
+  .text__head{
+     margin-left:20%
+  }
+}
+@media only screen and (max-width:372px){
+  img{
+    width:250px;
+    height: 250px;
+   
+  }
+  video{
+    width:250px;
+   
+  }
+  .service__h4{
+    font-size:17px;
+    font-family:  'Pacifico', cursive;
+
+  }
+  .main{
+    margin-left:2%;
+   }
+}
+@media only screen and (max-width:360px){
+  .service__p{ 
+    font-size:17px;
+  }
+
+.main{
+  margin-left:1%;
+}
+.service__left{
+  margin-left:1%;
+}
+.service__right{
+  grid-column: 1;
+  font-size:17px;
+  margin-left:2%
+}
+.theText{
+  font-size:5px;
+}
+}
+@media only screen and (max-width:338px){
+  .service__p{ 
+    font-size:18px;
+  }
+
+.main{
+  margin-left:3%;
+}
+.service__left{
+  margin-left:3%;
+}
+.service__right{
+  grid-column: 1;
+  font-size:17px;
+}
+.theText{
+  font-size:5px;
+}
+.transcript {
+  font-size:8px;
+ 
+ 
+}
+
+}
+    
+  
+ 
+
+
+
+  
